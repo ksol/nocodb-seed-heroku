@@ -20,7 +20,11 @@
     }
   ],
    "env": {
-        "NC_ONE_CLICK": "true",
-        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+        "NC_ONE_CLICK": {
+          value: "true"
+        },
+        "NODE_TLS_REJECT_UNAUTHORIZED": {
+          value: "0"
+        }
     }
 }
